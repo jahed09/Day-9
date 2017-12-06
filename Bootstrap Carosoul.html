@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap Slider</title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+        <div class="container">
+            <a href=" " class="navbar-brand">LOGO</a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#mainmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainmenu">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a href="" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">About</a></li>
+                    <li class="nav-item dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Service</a>
+                        <ul class="dropdown-menu bg-dark">
+                            <li class="nav-item"><a href="" class="nav-link">Service One</a> </li>
+                            <li class="nav-item"><a href="" class="nav-link">Service Two</a> </li>
+                            <li class="nav-item"><a href="" class="nav-link">Service Three</a> </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="" class="nav-link">Gallery</a></li>
+                </ul>
+
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="" class="nav-link" data-toggle="modal" data-target="#login">Login</a></li>
+                    <li class="nav-item"><a href="" class="nav-link" data-toggle="modal" data-target="#sign-up">Sing-Up</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="mainslider" class="carousel slide" data-ride="carousel" data-interval="1800">
+        <ol class="carousel-indicators">
+            <li data-target="#mainslider" data-slide-to="0"></li>
+            <li data-target="#mainslider" data-slide-to="1"></li>
+            <li data-target="#mainslider" data-slide-to="2"></li>
+            <li data-target="#mainslider" data-slide-to="3"></li>
+            <li data-target="#mainslider" data-slide-to="4"></li>
+            <li data-target="#mainslider" data-slide-to="5"></li>
+            <li data-target="#mainslider" data-slide-to="6"></li>
+        </ol>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/slider1.jpg" alt="" class="w-100" height="400"/>
+                <div class="carousel-caption">
+                    <h2>This is Caption One</h2>
+                    <p>Some content goes to here</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/slider2.jpg" alt="" class="w-100" height="400"/>
+                <div class="carousel-caption">
+                    <h2>This is Caption Two</h2>
+                    <p>Some content goes to here</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/slider3.jpg" alt="" class="w-100" height="400"/>
+                <div class="carousel-caption">
+                    <h2>This is Caption Three</h2>
+                    <p>Some content goes to here</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/slider4.jpg" alt="" class="w-100" height="400"/>
+                <div class="carousel-caption">
+                    <h2>This is Caption Four</h2>
+                    <p>Some content goes to here</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/slider5.jpg" alt="" class="w-100" height="400"/>
+                <div class="carousel-caption">
+                    <h2>This is Caption Five</h2>
+                    <p>Some content goes to here</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/slider6.jpg" alt="" class="w-100" height="400" />
+                <div class="carousel-caption">
+                    <h2>This is Caption Six</h2>
+                    <p>Some content goes to here</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/slider7.jpg" alt="" class="w-100" height="400" />
+                <div class="carousel-caption">
+                    <h2>This is Caption Seven</h2>
+                    <p>Some content goes to here</p>
+                </div>
+            </div>
+        </div>
+        <a href="#mainslider" class="carousel-control-prev" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a href="#mainslider" class="carousel-control-next" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+
+
+    <hr/>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3 ">
+                <div class="card">
+                    <img src="img/logo.jpg" alt="" class="card-img-top" />
+                    <div class="card-body">
+                        <h3 class="card-title">This card footer</h3>
+                        <p class="card-text">This card footer</p>
+                        <a href="" class="btn btn-outline-info">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 ">
+                <div class="card">
+                    <img src="img/logo.jpg" alt="" class="card-img-top" />
+                    <div class="card-body">
+                        <h3 class="card-title">This card footer</h3>
+                        <p class="card-text">This card footer</p>
+                        <a href="" class="btn btn-outline-info">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card">
+                    <img src="img/logo.jpg" alt="" class="card-img-top" />
+                    <div class="card-body">
+                        <h3 class="card-title">This card footer</h3>
+                        <p class="card-text">This card footer</p>
+                        <a href="" class="btn btn-outline-info">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card">
+                    <img src="img/logo.jpg" alt="" class="card-img-top" />
+                    <div class="card-body">
+                        <h3 class="card-title">This card footer</h3>
+                        <p class="card-text">This card footer</p>
+                        <a href="" class="btn btn-outline-info">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr />
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="card bg-primary text-white">
+                        <div class="card-body">
+                            <h3>This is card body</h3>
+                            <p>This is a paragraph0. This is a paragraph0. This is a paragraph0. This is a paragraph0.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card bg-primary text-white">
+                        <div class="card-body">
+                            <h3>This is card body</h3>
+                            <p>This is a paragraph0. This is a paragraph0. This is a paragraph0. This is a paragraph0.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card bg-primary text-white">
+                        <div class="card-body">
+                            <h3>This is card body</h3>
+                            <p>This is a paragraph0. This is a paragraph0. This is a paragraph0. This is a paragraph0.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card bg-primary text-white">
+                        <div class="card-body">
+                            <h3>This is card body</h3>
+                            <p>This is a paragraph0. This is a paragraph0. This is a paragraph0. This is a paragraph0.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr/>
+
+    <section class="section-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="carousel slide" data-ride="carousel" data-interval="1800">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" style="padding: 100px 300px;">
+                                <h3>Some Content Here about something</h3>
+                                <h3>Some Content Here about something</h3>
+                                <h3>Some Content Here about something</h3>
+                            </div>
+                            <div class="carousel-item" style="padding: 100px 300px">
+                                <h3>Some Content Here about something</h3>
+                                <h3>Some Content Here about something</h3>
+                                <h3>Some Content Here about something</h3>
+                            </div>
+                            <div class="carousel-item" style="padding: 100px 300px;">
+                                <h3>Some Content Here about something</h3>
+                                <h3>Some Content Here about something</h3>
+                                <h3>Some Content Here about something</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr />
+    <section class="section-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="carousel slide" data-ride="carousel" data-interval="1800">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" style="padding: 100px 300px;">
+                                <h3>Some Content Here about something</h3>
+                                <h3>Some Content Here about something</h3>
+                                <h3>Some Content Here about something</h3>
+                            </div>
+                            <div class="carousel-item" style="padding: 100px 300px">
+                                <h3>Some Content Here about something</h3>
+                                <h3>Some Content Here about something</h3>
+                                <h3>Some Content Here about something</h3>
+                            </div>
+                            <div class="carousel-item" style="padding: 100px 300px;">
+                                <h3>Some Content Here about something</h3>
+                                <h3>Some Content Here about something</h3>
+                                <h3>Some Content Here about something</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--------------------------------------------------------Models------------------------------------------------>
+
+    <div class="modal fade" id="login">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3> This is modal header</h3>
+                    <button type="button" class="close" data-dismiss="modal">
+                        &Cross;
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label>Email Address</label>
+                            <input type="email" name="email_address"class="form-control"/>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" name="password"class="form-control"/>
+                        </div>
+
+                    </form>
+
+                    <div class="form-group">
+                        <input type="submit" name="btn" class="btn btn-success btn-block" value="Registration"/>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <h3>This is modal Footer</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="sign-up">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3> This is modal header</h3>
+                    <button type="button" class="close" data-dismiss="modal">
+                        &Cross;
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="firstname">First Name</label>
+                            <input type="text" name="first_name" placeholder="Your First Name" id="firstname" class="form-control"/>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="lastname">Last Name</label>
+                            <input type="text" name="last_name" id="lastname" placeholder="Your last Name" class="form-control"/>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" name="email_address" id="email" class="form-control"/>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password" class="form-control"/>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="submit" name="btn" class="btn btn-success btn-block" value="Registration"/>
+                        </div>
+                    </form>
+
+                </div>
+
+                <div class="modal-footer">
+                    <h3>This is modal Footer</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----------------------------------------------Modal------------------------------------------------------->
+
+
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/poppers.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
